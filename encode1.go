@@ -18,7 +18,7 @@ packet representes numeric data to be encoded as shown below:
 +---------------+
 */
 type packet struct {
-	Sensid uint32
+	Sensid uint16
 	Locid  uint16
 	Tstamp uint32
 	Temp   int16
